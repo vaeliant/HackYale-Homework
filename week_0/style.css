@@ -1,0 +1,12 @@
+h1 {
+	color: blue;
+}
+
+.blue {
+	color: red;
+	font-size: 200px;
+	font-family: Arial;
+	background-color: blue;
+}
+
+/* . signifies class syntax */

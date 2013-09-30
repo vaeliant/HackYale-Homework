@@ -1,0 +1,42 @@
+h1 {
+	color: blue;
+}
+
+.blue {
+	color: red;
+	font-size: 200px;
+	font-family: Arial;
+	background-color: blue;
+}
+
+/* . signifies class syntax */
+
+
+#blue {
+	color: blue;
+	font-size: 200px;
+	font-family: Arial;
+	background-color: #fbf7c5;
+	border: 10px solid blue;
+	border-radius: 55px;
+}
+
+.showInline {
+	display: inline;
+	color: white;
+	background-color: blue;
+	font-style: italic;
+}
+
+.displayNone {
+	display: none;
+}
+
+.fixedTest {
+	position: fixed;
+	OTHER PROPERTIES
+	/*static, fixed, absolute, relative*/
+	bottom: 150px;
+	right: 100px;
+	left: 100px;
+}
