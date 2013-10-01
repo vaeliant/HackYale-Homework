@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Old CSS for legacy pages*/
+
+.fonts {
+	font-family: "Palatino";
+}
+
+.blue {
+	color: red;
+	font-size: 200px;
+	font-family: Arial;
+	background-color: blue;
+}
+
+.newList {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.navItem {
+display:block;
+width:150px;
+background-color: LightGrey;
+text-align:center;
+text-transform:lowercase;
+}
+
+.navItem:hover,.navItem:active {
+background-color: grey;
+}
+
+.marginReset {
+	margin: 0;
+	padding: 0;
+}
+
+.wordWrap {
+	word-wrap: break-word;
+	width: 267px;
+	border: 1px double black;
+	font-size: 18px;
+	background-color: LightGrey;
+}
+
+.headingStyle {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.listNoBullets {
+	list-style-type: none;
+    /*margin:0 auto;*/
+    text-align:center;
+}
+/*  new CSS */
+
+
+
+.navBarDiv {
+	width: 960px;
+	height: 50px;
+	vertical-align: top;
+}
+
+.navBarTitleDiv {
+	width: 240px;
+	height: 46px;
+	float: left;
+	vertical-align: top;
+	padding-top: 0px;
+}
+
+.navBarSpaceTaker {
+	width: 236px;
+	float: left;
+	vertical-align: top;
+}
+
+.navBarTitle {
+	color: blue;
+	height: inherit;
+	font-family: Arial;
+	font-size: 200%;
+	background-color: #fbf7c5;
+	border: 2px solid blue;
+	width: inherit;
+	text-align: center;
+	padding-top: 0px;
+}
+
+.navBarLinksDiv {
+	width: 160px;
+	height: 46px;
+	float: left;
+	vertical-align: top;
+}
+
+.navBarLinks {
+	color: blue;
+	height: inherit;
+	font-family: Arial;
+	font-size: 200%;
+	background-color: #fbf7c5;
+	border: 2px solid blue;
+	width: inherit;
+	text-align: center;
+}
+
+.headingDiv {
+	color: blue;
+	height: inherit;
+	font-family: Arial;
+	font-size: 400%;
+	background-color: #fbf7c5;
+	border: 2px solid blue;
+	width: inherit;
+	text-align: center;
+	width: 956px;
+}
+
+.contentContainer {
+	width: 960px;
+	height: 1300px;
+}
+
+.contentColumn {
+	width: 296px;
+	float: left;
+	height: inherit;
+}
+
+.emptyColumn {
+	width: 36px;
+	float: left;
+
+}
+
+.content {
+	position: absolute;
+	top: 200px;
+	width: inherit;
+}
+
+.contentImage {
+	width: 296px;
+	height: 220px;
+}
+
+.contentText {
+	width: inherit;
+	height: 220px;
+}
+
+.contentLink {
+	position: static;
+}
+
+.contentLarge {
+	width: 628px;
+	height: 700px;
+	float: left;
+	position: absolute;
+	top: 718px;
+}
+
+.bigImage {
+	width: inherit;
+	height: 360px;
+}
+
+.contentHeading {
+	font-size: 200%
+}
+
+.contentHeadingBig {
+	font-size: 400%;
+}
+
+.contentSubtext {
+	 font-size: 70%;
+}
+
+.contentSmallPane {
+	width: 296px;
+	height: 700px;
+/*	float: left;
+*/	position: absolute;
+	top: 718px;
+}
+
+.contentSmall {
+	float: left;
+	width: 296px;
+	height: 120px;
+	border-bottom: 1px solid;
+	padding-top: 5px;
+}
+
+.contentSmallImg {
+	float: left;
+	width: 80px;
+	height: 120px;
+	padding-right: 10px
+}
+
+.contentSmallText {
+	float: left;
+	width: 206px;
+	height: 120px;
+}
+
+.smallImage {
+	width: 80px;
+	height: 80px;
+}
+
+.contentHeadingSmall {
+	font-size: 100%;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+.contentTextSmall {
+	width: inherit;
+	height: inherit;
+}
+
+
+
